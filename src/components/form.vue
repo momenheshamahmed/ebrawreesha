@@ -11,16 +11,16 @@
             <input type="number" v-model="message.number" class="col-md-8 col-sm-10" placeholder="01xxxxxxxxx" required>
             <input type="text" v-model="message.company" class="col-md-8 col-sm-10" placeholder="company name">
             <label class="col-md-12 labelt">bean bag</label>
-            <select class="col-md-10" name="beanbags">
+            <select class="col-md-10" name="beanbags"  v-model="message.beanbags">
                 <option v-for="bean in beanbags"> {{ bean }}</option>
             </select>
             <label class="col-md-12 labelt">colors</label>
-            <select class="col-md-10" name="colors">
-                <option v-for="color in colors" class="color1"> {{ color }}</option>
+            <select class="col-md-10" name="colors" v-model="message.color">
+                <option v-for="color in colors" class="color1"  > {{ color }}</option>
             </select>
-            <textarea v-model="message.text" placeholder="write your comment" class="col-md-10"></textarea>
+            <textarea v-model="message.text" placeholder="write your comment" class="col-md-10"  v-on:click="print"></textarea>
 
-            <button class="col-md-4 col-md-offset-8">send now</button>
+            <button class="col-md-4 col-md-offset-8" >send now</button>
         </form>
     </div>
   </div>
@@ -36,11 +36,19 @@ export default {
         email: '',
         number: '',
         company: '',
-        text: ''
+        text: '',
+        beanbags: this.beanbags,
+        color: ''
+
       },
       beanbags: ['Mega Pilow', 'Pilow', 'Aloha Sofa', 'E-chair', 'The Throne', 'The Donut', 'Standard Family', 'Standard Family+', 'Baby b'],
       colors: ['color1', 'color2', 'color3', 'color4']
     }
+  },
+  methods: {
+    print: function() {
+    console.log(this.message)
+  }
   }
 }
 </script>
