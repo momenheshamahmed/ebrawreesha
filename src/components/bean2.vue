@@ -9,9 +9,9 @@
     <router-link to="/ordernow"><button>order now</button></router-link>
   </div>
     <div class="beaninfo col-md-8">
-      <h1>ALOHA SOFA</h1>
-      <p>It is like a couch, but a boneless one. The Aloha? Comes from Hi! This is
-        the perfect one to share with your beloved, especially if they like to take lots of space.
+      <h1>THE E-CHAIR</h1>
+      <p>This chair shaped beanbag is the choice for you when you want comfort and to focus on your business.
+         Nobody knows where we had the E from, it sounded matching, you’ll love it when you see it.
       </p>
       <h1>colors</h1>
       <div class="colors">
@@ -29,7 +29,7 @@
       </div>
       </div>
       <h1>Deminsions</h1>
-      <p>75×140×192 cm</p>
+      <p>75×120×85 cm</p>
       <h1>Materials</h1>
       <p>Fabric - Leather - Waterproof- Pvc - vensoa</p>
     </div>

@@ -15,6 +15,7 @@ import bean6 from '@/components/bean6'
 import bean7 from '@/components/bean7'
 import bean8 from '@/components/bean8'
 import bean9 from '@/components/bean9'
+import ordernow from '@/components/form'
 
 Vue.use(Router)
 
@@ -94,6 +95,11 @@ export default new Router({
       path: '/bean9',
       name: 'bean9',
       component: bean9
+    },
+    {
+      path: '/ordernow',
+      name: 'form',
+      component: ordernow
     }
   ]
 })

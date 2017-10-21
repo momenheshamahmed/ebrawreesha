@@ -9,9 +9,9 @@
     <router-link to="/ordernow"><button>order now</button></router-link>
   </div>
     <div class="beaninfo col-md-8">
-      <h1>ALOHA SOFA</h1>
-      <p>It is like a couch, but a boneless one. The Aloha? Comes from Hi! This is
-        the perfect one to share with your beloved, especially if they like to take lots of space.
+      <h1>STANDARD FAMILY+</h1>
+      <p>The standard. Needless we say more. They are perfect for relaxing and fun, a
+        complete picture of seating comfort.
       </p>
       <h1>colors</h1>
       <div class="colors">
@@ -29,7 +29,7 @@
       </div>
       </div>
       <h1>Deminsions</h1>
-      <p>75×140×192 cm</p>
+      <p>60×90×90 cm</p>
       <h1>Materials</h1>
       <p>Fabric - Leather - Waterproof- Pvc - vensoa</p>
     </div>

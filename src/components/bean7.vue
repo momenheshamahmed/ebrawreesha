@@ -9,9 +9,11 @@
     <router-link to="/ordernow"><button>order now</button></router-link>
   </div>
     <div class="beaninfo col-md-8">
-      <h1>ALOHA SOFA</h1>
-      <p>It is like a couch, but a boneless one. The Aloha? Comes from Hi! This is
-        the perfect one to share with your beloved, especially if they like to take lots of space.
+      <h1>THE DONUT</h1>
+      <p>
+        Because you are one marvelous piece of art, we introduce you the Plinth.
+        A plinth is a heavy base or box on which a sculpture stands or is presented. The Plinth will give you a
+        comfy experience anywhere with its unique design.
       </p>
       <h1>colors</h1>
       <div class="colors">
@@ -29,7 +31,7 @@
       </div>
       </div>
       <h1>Deminsions</h1>
-      <p>75×140×192 cm</p>
+      <p>100×80×80 cm</p>
       <h1>Materials</h1>
       <p>Fabric - Leather - Waterproof- Pvc - vensoa</p>
     </div>

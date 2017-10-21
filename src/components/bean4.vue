@@ -10,8 +10,8 @@
   </div>
     <div class="beaninfo col-md-8">
       <h1>ALOHA SOFA</h1>
-      <p>It is like a couch, but a boneless one. The Aloha? Comes from Hi! This is
-        the perfect one to share with your beloved, especially if they like to take lots of space.
+      <p>It is like a couch, but a boneless one. The Aloha? Comes from Hi! This is the perfect
+        one to share with your beloved, especially if they like to take lots of space.
       </p>
       <h1>colors</h1>
       <div class="colors">

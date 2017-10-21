@@ -21,7 +21,7 @@
         you want to take advantage of the utmost comfort,
         just like those art clays.
       </p>
-      <button type="button" class="bordernow col-md-2 col-sm-4"><router-link to="/bean3">order now</router-link></button>
+      <button type="button" class="bordernow col-md-2 col-sm-4"><router-link to="/bean1">order now</router-link></button>
       <button type="button" class="bdisocver col-md-2 col-sm-4"><router-link to="/product">dicover now</router-link></button>
     </div>
     </div>
