@@ -2,9 +2,9 @@
 <div class="container mybean">
   <div class="col-md-4">
     <div class="owl-carousel" id="owl-carousel">
-      <img src="../assets/clients.png" alt="">
-      <img src="../assets/clients.png" alt="">
-      <img src="../assets/clients.png" alt="">
+      <img src="../assets/beans/c1/c1.png" alt="aloha sofa" title="aloha sofa">
+      <img src="../assets/beans/c1/c2.png" alt="aloha sofa" title="aloha sofa">
+      <img src="../assets/beans/c1/c3.png" alt="aloha sofa" title="aloha sofa">
     </div>
     <router-link to="/ordernow"><button>order now</button></router-link>
   </div>
