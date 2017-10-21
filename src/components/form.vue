@@ -41,13 +41,15 @@ export default {
 
       },
       beanbags: ['Mega Pilow', 'Pilow', 'Aloha Sofa', 'E-chair', 'The Throne', 'The Donut', 'Standard Family', 'Standard Family+', 'Baby b'],
-      colors: ['color1', 'color2', 'color3', 'color4']
+      colors: ['color1', 'color2', 'color3', 'color4'],
+      submitied: false
     }
   },
   methods: {
   postdata: function() {
-    this.$http.post('https://ebraa-w-reesha.firebaseio.com/buynow.json', this.message).then(function(data) {
-      console.log(data)
+    this.$http.post('https://ebraa-w-reesha.firebaseio.com/beanbags.json', this.message).then(function(data) {
+      console.log(data);
+      submitied = true  
     })
   }
 }
@@ -72,7 +74,7 @@ button {
   background:#87B14A;
   height: 60px;
   color:white;
-  font-size:20px;
+  font-size:35px;
   border-radius: 10px;
   border:none;
   margin:20px auto;
@@ -88,7 +90,7 @@ p {
   font-family: 'Open Sans';
   font-weight: 500;
 }
-input, select, textarea {
+input, select, textarea, button {
   outline:none;
 }
 select option {
