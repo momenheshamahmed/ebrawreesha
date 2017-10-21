@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueResource from 'vue-resource'
 // my components
 import myheader from './components/header'
 import myslider from './components/slider'
@@ -19,6 +20,7 @@ Vue.component('clients', clients)
 Vue.component('myfooter', footer)
 
 require('@/owl/owlCarousel.css')
+Vue.use(VueResource)
 
 Vue.config.productionTip = false
 /* eslint-disable no-new */
@@ -27,5 +29,6 @@ new Vue({
   router,
   render: h => h(App),
   template: '<App/>',
-  components: { App }
+  components: { App },
+  mode:'history'
 })

@@ -5,7 +5,7 @@
       <h1>contact us</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        <form class="" action="index.html" method="post">
+        <form>
             <input type="text" v-model="message.name" class="col-md-8 col-sm-10" placeholder="Name" required>
             <input type="email" v-model="message.email" class="col-md-8 col-sm-10" placeholder="Email@example.com" required>
             <input type="number" v-model="message.number" class="col-md-8 col-sm-10" placeholder="01xxxxxxxxx" required>
@@ -18,9 +18,8 @@
             <select class="col-md-10" name="colors" v-model="message.color">
                 <option v-for="color in colors" class="color1"  > {{ color }}</option>
             </select>
-            <textarea v-model="message.text" placeholder="write your comment" class="col-md-10"  v-on:click="print"></textarea>
-
-            <button class="col-md-4 col-md-offset-8" >send now</button>
+            <textarea v-model="message.text" placeholder="write your comment" class="col-md-10"></textarea>
+            <button class="col-md-4 col-md-offset-8" v-on:click="postdata">send now</button>
         </form>
     </div>
   </div>
@@ -37,7 +36,7 @@ export default {
         number: '',
         company: '',
         text: '',
-        beanbags: this.beanbags,
+        beanbags: '',
         color: ''
 
       },
@@ -46,10 +45,12 @@ export default {
     }
   },
   methods: {
-    print: function() {
-    console.log(this.message)
+  postdata: function() {
+    this.$http.post('https://ebraa-w-reesha.firebaseio.com/buynow.json', this.message).then(function(data) {
+      console.log(data)
+    })
   }
-  }
+}
 }
 </script>
 
