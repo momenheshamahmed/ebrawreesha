@@ -1,4 +1,5 @@
 # ebrawreesha
+<<<<<<< HEAD
 
 > Ebra W reesha bean baags
 
@@ -25,3 +26,5 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+>>>>>>> c32f1bd258c50b064e4f3ad572959ffe12a09011

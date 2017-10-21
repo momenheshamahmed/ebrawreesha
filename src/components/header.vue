@@ -50,6 +50,7 @@ export default {
 }
 .mylogo {
   float:left;
+  margin:10px 0;
 }
 .myclick{
 font-size:40px;

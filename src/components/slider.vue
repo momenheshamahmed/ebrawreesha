@@ -89,13 +89,19 @@ export default {
 .carousel-control.right,
 .carousel-control.left {
   background-image: none;
+
+}
+.carousel-control {
+  text-shadow: none;
 }
 .fa.fa-angle-left, .fa.fa-angle-right {
   color:black;
-  font-size:30px;
+  font-size:60px;
   position: absolute;
   box-shadow:none;
   top:40%;
+  color:#262626;
+  box-shadow: none;
 }
 .fa.fa-angle-right {
   right:0;
@@ -118,10 +124,11 @@ export default {
   margin-top:20px;
   margin-left: 10px;
   padding: 10px;
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: uppercase;
   outline:none;
+  font-size:17px;
+  font-family:'Open Sans';
+  text-transform: uppercase;
+  font-weight: 600;
 }
 .bordernow a, .bdisocver a{
   color:white;

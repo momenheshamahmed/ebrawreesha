@@ -64,6 +64,13 @@ ul li {
 }
 ul li a {
   color:white;
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+}
+ul li a:hover {
+  color: #87B14A;
+  padding-left:10px;
+  text-decoration: none;
 }
 
 .aboutp {

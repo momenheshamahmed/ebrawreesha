@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-  <div class="col-md-12">
+  <div class="col-md-12 myowl">
     <div class="owl-carousel" id="owl-carousel">
       <img src="../assets/clients.png" alt="">
       <img src="../assets/clients.png" alt="">
@@ -26,7 +26,7 @@ export default {
   mounted: function() {
     var owl = $('.owl-carousel');
     owl.owlCarousel({
-        items:5,
+        items:7,
         loop:true,
         margin:10,
         autoplay:true,
@@ -46,6 +46,8 @@ export default {
 
 <style scoped>
 
-
+.myowl {
+  margin-bottom: 40px;
+}
 
 </style>

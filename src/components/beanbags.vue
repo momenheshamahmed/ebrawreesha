@@ -1,7 +1,12 @@
 <template>
 <div class="container">
+  <div class="col-md-12">
+    <h1 class="beant col-md-12">Bean Bags</h1>
+    <p class="col-md-6 descripep">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae facilisis nibh
+      Sed volutpat tincidunt suscipit. Nullam hendrerit lectus quam, ac mattis enim lacinia in.
+    </p>
+  </div>
   <div class="col-md-12 beanbags">
-    <h1 class="beant">Bean Bags</h1>
     <!-- div 1 -->
     <div class="divbean col-md-3"
       v-on:mouseover="showmybean.showit =! showmybean.showit"
@@ -10,8 +15,9 @@
       <img src="../assets/bean-1.png" alt="">
       <div v-show="showmybean.showit" class="mybeaninfo">
         <p class="pbean">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae facilisis nibh.
-           Sed volutpat tincidunt suscipit. Nullam hendrerit lectus quam, ac mattis enim lacinia in.
+          It is like a couch, but a boneless one. The Aloha? Comes from Hi! This is the perfect
+           one to share with your beloved, especially if they like to take lots of space.
+
         </p>
         <button class="bordernow"><router-link to="/bean1" >order now</router-link></button>
       </div>
@@ -24,8 +30,8 @@
       <img src="../assets/bean-1.png" alt="">
       <div v-show="showmybean.showit1" class="mybeaninfo">
         <p class="pbean">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae facilisis nibh.
-           Sed volutpat tincidunt suscipit. Nullam hendrerit lectus quam, ac mattis enim lacinia in.
+          This chair shaped beanbag is the choice for you when you want comfort and to focus on your business.
+             Nobody knows where we had the E from, it sounded matching, you’ll love it when you see it.
         </p>
         <button class="bordernow"><router-link to="/bean2" >order now</router-link></button>
       </div>
@@ -38,8 +44,8 @@
       <img src="../assets/bean-1.png" alt="">
       <div v-show="showmybean.showit2" class="mybeaninfo">
         <p class="pbean">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae facilisis nibh.
-           Sed volutpat tincidunt suscipit. Nullam hendrerit lectus quam, ac mattis enim lacinia in.
+          The Pillow shape is easy to form in any way you want to take advantage of the utmost comfort,
+          just like those art clays.
         </p>
         <button class="bordernow"><router-link to="/bean3" >order now</router-link></button>
       </div>
@@ -52,9 +58,9 @@
       <img src="../assets/bean-1.png" alt="">
       <div v-show="showmybean.showit3" class="mybeaninfo">
         <p class="pbean">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae facilisis nibh.
-           Sed volutpat tincidunt suscipit. Nullam hendrerit lectus quam, ac mattis enim lacinia in.
-        </p>
+        The Pillow shape is easy to form in any way you want to take
+        advantage of the utmost comfort, just like those art clays.
+       </p>
         <button class="bordernow"><router-link to="/bean4" >order now</router-link></button>
       </div>
     </div>
@@ -66,9 +72,9 @@
       <img src="../assets/bean-1.png" alt="">
       <div v-show="showmybean.showit4" class="mybeaninfo">
         <p class="pbean">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae facilisis nibh.
-           Sed volutpat tincidunt suscipit. Nullam hendrerit lectus quam, ac mattis enim lacinia in.
-        </p>
+        The standard. Needless we say more. They are perfect for relaxing and fun,
+         a complete picture of seating comfort.
+         </p>
         <button class="bordernow"><router-link to="/bean5" >order now</router-link></button>
       </div>
     </div>
@@ -80,8 +86,8 @@
       <img src="../assets/bean-1.png" alt="">
       <div v-show="showmybean.showit5" class="mybeaninfo">
         <p class="pbean">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae facilisis nibh.
-           Sed volutpat tincidunt suscipit. Nullam hendrerit lectus quam, ac mattis enim lacinia in.
+        The standard. Needless we say more. They are perfect for relaxing and
+        fun, a complete picture of seating comfort.
         </p>
         <button class="bordernow"><router-link to="/bean6" >order now</router-link></button>
       </div>
@@ -94,9 +100,9 @@
       <img src="../assets/bean-1.png" alt="">
       <div v-show="showmybean.showit6" class="mybeaninfo">
         <p class="pbean">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae facilisis nibh.
-           Sed volutpat tincidunt suscipit. Nullam hendrerit lectus quam, ac mattis enim lacinia in.
-        </p>
+          Because you are one marvelous piece of art, we introduce you the Plinth. A plinth is a heavy base or box
+          on which a sculpture stands or is presented....
+         </p>
         <button class="bordernow"><router-link to="/bean7" >order now</router-link></button>
       </div>
     </div>
@@ -108,8 +114,8 @@
       <img src="../assets/bean-1.png" alt="">
       <div v-show="showmybean.showit7" class="mybeaninfo">
         <p class="pbean">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae facilisis nibh.
-           Sed volutpat tincidunt suscipit. Nullam hendrerit lectus quam, ac mattis enim lacinia in.
+          You rule! Tons of fun and relaxation included in your throne.
+          Stay fluffy, full and wonderfully comfortable.
         </p>
         <button class="bordernow"><router-link to="/bean8" >order now</router-link></button>
       </div>
@@ -122,8 +128,8 @@
       <img src="../assets/bean-1.png" alt="">
       <div v-show="showmybean.showit8" class="mybeaninfo">
         <p class="pbean">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae facilisis nibh.
-           Sed volutpat tincidunt suscipit. Nullam hendrerit lectus quam, ac mattis enim lacinia in.
+          Because you don’t want to lose your kid inside those sacs, we made you one for them. Hey,
+          we know they would get jealous of you as well!
         </p>
         <button class="bordernow"><router-link to="/bean9" >order now</router-link></button>
       </div>
@@ -156,13 +162,19 @@ export default {
 
 <style scoped>
 .beanbags {
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 .divbean {
   width:270px;
   height:350px;
   position:relative;
   padding: 0;
+}
+.beant {
+  font-weight: 700;
+  font-size:50px;
+  text-transform: uppercase;
+  color:#87B14A;
 }
 .pbean {
   position: absolute;
@@ -172,6 +184,8 @@ export default {
   color:white;
   background-color:rgba(0,0,0, .6);
   height: 350px;
+  font-family:'Open Sans';
+  font-size:18px;
 }
 .bordernow {
   background-color:#87B14A;
@@ -190,5 +204,9 @@ export default {
   text-decoration:none;
   text-transform:uppercase;
   font-weight: 600;
+}
+.descripep {
+  font-size:16px;
+
 }
 </style>
